@@ -16,7 +16,6 @@
 					<pre>{{id}}. {{burger_name}}</pre>
 				</div>
 			<div class="col-xs-3 text-center">
-				{{!-- <form method="POST" action="/burgers/update?_method=PUT" class="button-size"> --}}
 				<form action="burger/eat/{{id}}" method="POST">
 					<input type="hidden" name="burger_id" type="text" value={{id}}>
 					<br>
