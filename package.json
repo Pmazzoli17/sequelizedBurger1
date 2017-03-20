@@ -1,0 +1,27 @@
+{
+  "name": "sequelized-burger1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pmazzoli17/sequelizedBurger1.git"
+  },
+  "author": "peter_mazzoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pmazzoli17/sequelizedBurger1/issues"
+  },
+  "homepage": "https://github.com/Pmazzoli17/sequelizedBurger1#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.2"
+  }
+}
