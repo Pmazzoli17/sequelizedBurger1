@@ -1,6 +1,7 @@
-CREATE DATABASE burgers_db;
+-- CREATE DATABASE burgers_db;
+CREATE DATABASE burgers3_db;
 
-USE burgers_db;
+USE burgers3_db;
 
 CREATE TABLE burgers
 (
@@ -11,4 +12,5 @@ CREATE TABLE burgers
 	PRIMARY KEY (id)
 );
 
-SELECT * FROM burgers_db.burgers;
+-- SELECT * FROM burgers_db.burgers;
+SELECT * FROM burgers3_db.burgers;
